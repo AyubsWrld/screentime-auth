@@ -1,0 +1,10 @@
+{
+  "extends": "expo/tsconfig.base",
+  "compilerOptions": {
+    "strict": true,
+    "paths": {
+      "screentime-auth": ["../src/index"],
+      "screentime-auth/*": ["../src/*"]
+    }
+  }
+}
